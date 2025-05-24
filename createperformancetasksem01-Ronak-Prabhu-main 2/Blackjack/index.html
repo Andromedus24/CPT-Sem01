@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="blackJack.css">
+		<title>Blackjack Simulator Mainpage</title>
+	</head>
+	<body>
+	<h2>Black Jack</h2>
+	<p>Select The Number of Players!</p>
+	<label for = "playerCount">Player Count</label>
+	<input id = "playerCount" type = "number" placeholder = "2" value = "1" min = "1" max = "7"></input>
+	<button onclick = "play()" id = "playButton" target = "_blank">	
+		Play
+	</button>
+		<br>
+	<img id = "blackjackCardValues" src = "blackjackCardValues.jpg" alt = "Blackjack Card Values" width="500">
+	<div id = "blackJackGoals"> 
+		The goal of the game is to get 21 <br> or as close as you can to it under 21. <br> 
+		The card values are shown below. If <br> you get over 21, you automatically bust, <br> which means you cannot win. If there is a <br> tie, then all 
+		players under the tie win.
+	</div>
+	<p id = "ace">
+		Note that the ace is NOT STATIC. It will change values from an <br>
+		11 or a 1 depending on your current hand
+	</p>
+	
+	<div id = "sample">
+		<h2 for = "sample" id = "sampleLabel">A sample of the game is provided below</h2>
+		<img id = "sampleImg" src = "Sample.png" alt = "Gameplay sample" width = "875">
+	</div>
+
+	<script src="blackJack.js"></script>
+	</body>
+	
+</html>

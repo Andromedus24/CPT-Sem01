@@ -1,0 +1,155 @@
+html { 
+	--primary: #0000DD;
+	--font: 'Andale Mono', 'Menlo', 'Courier New', Noto Serif Ahom, Courier, monospace;
+	--dark: #1D0DFF;
+	--green: #23CD89;
+	--red: #FF0E0E;
+	--brown: #BC7C4B;
+	--blue: #00BFFF;
+}
+
+.linkToMainPage {
+	top: 600px;
+	position: absolute;
+	color: var(--dark);
+	z-index: 60;
+	left: 1080px;
+}
+
+#pot {
+	top: 330px;
+	position: absolute;
+	color: var(--blue);
+	z-index: 60;
+	left: 600px;
+}
+
+#playButton {
+	color: var(--red);
+}
+
+#header1 {
+	text-align: center;
+	color: yellow;
+	position: absolute;
+	left: 440px;
+}
+
+#blackjacktable {
+	position: absolute;
+	z-index: 1;
+	left: 264px;
+	top: 80px;
+}
+
+#blackJackGoals {
+	left: 1000px;
+	top: 85px;
+	position: absolute;
+	z-index: 80;
+}
+
+#blackjackCardValues {
+	position: absolute;
+	z-index: 1;
+	left: 900px;
+	top: 200px;
+}
+
+#player1css {
+	top: 230px;
+	left: 970px;
+	position: absolute;
+	z-index: 20;
+	color:var(--blue);
+}
+
+#player2css {
+	top: 320px;
+	left: 1000px;
+	position: absolute;
+	z-index: 19;
+	color:var(--green);
+}
+
+#player3css {
+	top: 440px;
+	left: 970px;
+	position: absolute;
+	z-index: 18;
+	color: var(--red);
+	font-weight: bold;
+}
+
+#player4css {
+	top: 560px;
+	left: 550px;
+	position: absolute;
+	z-index: 17;
+	color: var(--brown);
+}
+
+#player5css {
+	top: 440px;
+	left: 150px;
+	position: absolute;
+	z-index: 16;
+	color:var(--blue);
+}
+
+#player6css {
+	top: 320px;
+	left: 130px;
+	position: absolute;
+	z-index: 15;
+	color: var(--green);
+}
+
+#player7css {
+	top: 220px;
+	left: 150px;
+	position: absolute;
+	z-index: 14;
+	color: var(--red);
+	font-weight: bold;
+}
+
+#computercss {
+	top: 160px;
+	left: 550px;
+	position: absolute;
+	z-index: 13;
+	color: var(--brown);
+}
+
+#hitStand {
+	top: 600px;
+	left: 644px;
+	position: absolute;
+ 	z-index: 21;
+}
+
+#turnCss {
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	z-index: 22;
+	color: white;
+}
+
+#sample {
+	position: absolute;
+	top: 150px;
+	left: 20px;
+}
+
+#sampleImg {
+	transform: rotate(180deg); /*Syntax taken from MDN WEB DOCS*/
+}
+
+#ace {
+	position: absolute;
+	top: 700px;
+	left: 950px;
+	font-weight: bold;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="blackJack.css">
+		<title>Blackjack Simulator</title>
+	</head>
+	<body>
+	<h1 id = "header1">Blackjack - By: Ronak & Aravind</h1>
+	
+	<img id = "blackjacktable" src = "gradient-poker-table-background.jpg" alt = "Blackjack Table" width="800">
+	<img id = "blackjackBackground" src = "blackjackBackground.png" alt = "Blackjack Background" width="1400" height="700">
+	<div id = "player1css">
+		<label for = "player1">Player 1</label>
+		<input id = "player1" value = "" readonly = "">
+	</div>
+	<div id = "player2css">
+		<label for = "player2">Player 2</label>
+		<input id = "player2" value = "" readonly = "">
+	</div>
+	<div id = "player3css">
+		<label for = "player3">Player 3</label>
+		<input id = "player3" value = "" readonly = "">
+	</div>
+	<div id = "player4css">
+		<label for = "player4">Player 4</label>
+		<input id = "player4" value = "" readonly = "">
+	</div>
+	<div id = "player5css">
+		<label for = "player5">Player 5</label>
+		<input id = "player5" value = "" readonly = "">
+	</div>
+	<div id = "player6css">
+		<label for = "player6">Player 6</label>
+		<input id = "player6" value = "" readonly = "">
+	</div>
+	<div id = "player7css">
+		<label for = "player7">Player 7</label>
+		<input id = "player7" value = "" readonly = ""></input>
+	</div>
+	<div id = "turnCss">
+		<label for = "turn">Current Player Turn:</label>
+		<input id = "turn" value = "" readonly = ""></input>
+	</div>
+	<div id = "computercss">
+		<label for = "computer">Dealer</label>
+		<input id = "computer" value = "" readonly = "">
+	</div>
+	
+	<div id = "pot">
+	<button id = "Start" onclick = "gameStart()">Start Game</button>
+	</div>
+	<div id ="hitStand">
+		<button onclick = "hit()">	
+			Hit
+		</button>
+		<button onclick = "stand()">	
+			Stand
+		</button>
+	</div>
+	<script src="blackJack.js"></script>
+
+	<a target = "_blank" class = "linkToMainPage" href = "index.html">Back to The Main Page</a>
+	
+	</body>
+</html> 
